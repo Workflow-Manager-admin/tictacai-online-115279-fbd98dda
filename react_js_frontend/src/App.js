@@ -233,8 +233,20 @@ function App() {
   return (
     <div className="nes-root">
       <div className="ttt-main-panel">
-        <h1 className="ttt-title" tabIndex={-1}>
-          TIC TAC TOE
+        <h1
+          className="ttt-title"
+          tabIndex={-1}
+          style={{
+            color: "#ff00a2",
+            fontStyle: "italic",
+            fontSize: "0.9375rem",
+            fontFamily: '"Press Start 2P", "Courier New", Courier, monospace',
+            fontWeight: "bold",
+            textAlign: "center",
+            textDecoration: "none"
+          }}
+        >
+          Subham TIC TAC TOE
         </h1>
         <div className="score-panel">
           <span>
